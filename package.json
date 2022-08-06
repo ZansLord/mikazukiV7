@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "mongo": "node . --db 'mongodb+srv://Metafor1000:metafor1000@cluster0.qy9jg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'",
+    "mongo": "node . --db 'mongodb+srv://ZansLord:zanslord021@cluster0.42jrx.mongodb.net/?retryWrites=true&w=majority'",
     "test": "node test.js",
     "test2": "nodemon index.js --server --autocleartmp"
   },
