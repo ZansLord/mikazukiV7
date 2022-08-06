@@ -37,27 +37,27 @@ const defaultMenu = {
   before: `
 ╔═══╗ ♪
 ║███║ ♫.        🅼🅴🅽🆄 🅱︎🅾︎🆃
-║ (●) ♫.       🅱︎🆈 🅼🅸🅺🅰🆉🆄🅺🅸▶️
+║ (●) ♫.
 ╚═══╝♪♪
 ❂═══❖•ೋ•:･ﾟ✧:･ﾟ✧
 ╟ꂑ 𝐻𝑎𝑖, %ucapan %name! 👋
 ┗━━━•❅•°•❈
 ╔╦══• •✠•❀彡★
-╟⌛*𝐖𝐀𝐊𝐓𝐔:* 
+╟⌛𝐖𝐀𝐊𝐓𝐔: 
 ╟🕐%wib WIB
 ╟🕔%wita WITA
 ╟🕒%wit WIT
-╟🌄*𝐇𝐚𝐫𝐢:* %week
-╟📅*𝐓𝐚𝐧𝐠𝐠𝐚𝐥:* %date
-╟🕔*𝐔𝐩𝐭𝐢𝐦𝐞:* %uptime (%muptime)
-╟👨‍👨‍👧‍👧*𝐒𝐚𝐫𝐚𝐧𝐠𝐁𝐨𝐭:*
+╟🌄𝐇𝐚𝐫𝐢: %week
+╟📅𝐓𝐚𝐧𝐠𝐠𝐚𝐥: %date
+╟🕔𝐔𝐩𝐭𝐢𝐦𝐞: %uptime (%muptime)
+╟👨‍👨‍👧‍👧𝐒𝐚𝐫𝐚𝐧𝐠𝐁𝐨𝐭:
 ╟https://chat.whatsapp.com/JraXe6qHmzI6elaTZbdTlI
 ╚»★★ミ✧･ﾟ: ✧ﾟ･:
 
 
-📊*𝐋𝐢𝐦𝐢𝐭𝐦𝐮:* %limit
-📶*𝐋𝐞𝐯𝐞𝐥𝐦𝐮:* %level
-🏋️‍♀️*𝐄𝐱𝐩𝐦𝐮:* %exp
+📊𝐋𝐢𝐦𝐢𝐭𝐦𝐮: %limit
+📶𝐋𝐞𝐯𝐞𝐥𝐦𝐮: %level
+🏋️‍♀️𝐄𝐱𝐩𝐦𝐮: %exp
 %readmore`.trimStart(),
   header: '⃝▣──「 %category 」───⬣',
   body: '│ ○ %cmd %islimit %isPremium',
@@ -181,35 +181,35 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
-               displayText: '✏️ S̺͆o̺͆u̺͆r̺͆c̺͆e̺͆ C̺͆o̺͆d̺͆e̺͆',
+               displayText: '✏️ Source Code',
                url: 'https://youtu.be/bEkmg30U2ig'
              }
 
            },
              {
              callButton: {
-               displayText: 'H̺͆p̺͆ O̺͆w̺͆n̺͆e̺͆r̺͆',
+               displayText: 'Hp Owner',
                PhoneNumber: '0858-2835-7727'
              }
 
            },
                {
              quickReplyButton: {
-               displayText: '👤 O̺͆w̺͆n̺͆e̺͆r̺͆',
+               displayText: '👤 Owner',
                id: '.owner',
              }
 
            },
                {
              quickReplyButton: {
-               displayText: '🤝 D̺͆o̺͆n̺͆a̺͆s̺͆i̺͆',
+               displayText: '🤝 Donasi',
                id: '.donasi',
              }
 
            },
            {
              quickReplyButton: {
-               displayText: '📳S̺͆e̺͆w̺͆a̺͆ B̺͆o̺͆t̺͆',
+               displayText: '📱Sewa Bot',
                id: '.sc',
              }
            }]
