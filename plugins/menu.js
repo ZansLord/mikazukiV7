@@ -62,7 +62,7 @@ const defaultMenu = {
   header: '⃝▣──「 %category 」───⬣',
   body: '│ ○ %cmd %islimit %isPremium',
   footer: '▣────────────⬣\n',
-  after: `*Recode by*
+  after: `*Recode by ZansLord*
 *%npmname* | %version
 ${'```%npmdesc```'}
 `,
