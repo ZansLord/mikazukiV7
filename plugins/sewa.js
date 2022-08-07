@@ -31,14 +31,14 @@ let message = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/fil
            hydratedButtons: [{
              urlButton: {
                displayText: '🏧 Sociabuzz',
-               url: 'https://sociabuzz.com/arietube/shop'
+               url: 'https://sociabuzz.com/ZansLord'
              }
 
            },
                {
              callButton: {
-               displayText: 'Gopay',
-               phoneNumber: '+62 882-4500-9287'
+               displayText: 'ShopeePay',
+               phoneNumber: '+62 858-6907-4622'
              }
            },           
                {
