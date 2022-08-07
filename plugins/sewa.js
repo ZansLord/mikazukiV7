@@ -21,7 +21,7 @@ Hai 👋
 ┗━━━•❅•°•❈
 Contact person Owner:
 wa.me/6285869074622 (Owner)`
-let message = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/696076406bf2516adb1fd.jpg' }}, { upload: conn.waUploadToServer })
+let message = await prepareWAMessageMedia({ image: {url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrbO9zz9mVY7xQCVjCEg2y7ErLz3OFfWlf9g&usqp=CAU' }}, { upload: conn.waUploadToServer })
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
          hydratedTemplate: {
